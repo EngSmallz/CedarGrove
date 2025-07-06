@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedar Grove HOA - Neighborhood Dogs</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+    <!-- Header Section (consistent across pages) -->
+    <header class="bg-gradient-to-r from-green-700 to-green-900 text-white shadow-lg py-4 md:py-6">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2 md:mb-0">Cedar Grove HOA</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-4 md:space-x-8 text-lg">
+                    <li><a href="local_links.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Local Links</a></li>
+                    <li><a href="businesses.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Businesses</a></li>
+                    <li><a href="dogs.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Dog Pictures</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Neighborhood Dogs Section -->
+    <section class="container mx-auto px-4 py-12 md:py-16 bg-white rounded-lg shadow-md mt-8 mb-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Our Furry Neighbors!</h2>
+        <p class="text-lg text-center leading-relaxed mb-8">
+            Welcome to the Cedar Grove dog gallery! We love celebrating our four-legged friends. If you'd like to feature your dog here, please send their picture to the HOA board at <a href="mailto:cedargrove2020@outlook.com?subject=Dog%20Picture%20Submission" class="text-green-600 hover:underline">cedargrove2020@outlook.com</a> with the subject "Dog Picture Submission".
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Example Dog Listing 1 -->
+            <div class="bg-gray-50 p-4 rounded-xl shadow-lg flex flex-col items-center text-center">
+                <img src="https://placehold.co/150x150/a78bfa/ffffff?text=Buddy" alt="Buddy the Dog" class="rounded-full w-24 h-24 object-cover mb-3 border-2 border-green-400">
+                <p class="text-lg font-semibold text-gray-800 mb-1">Dog's Name: Buddy</p>
+                <p class="text-base text-gray-700 mb-1">Owner's Name: Jane Doe</p>
+                <p class="text-base text-gray-700">Owner's Phone: (555) 111-2222</p>
+            </div>
+            <!-- Example Dog Listing 2 -->
+            <div class="bg-gray-50 p-4 rounded-xl shadow-lg flex flex-col items-center text-center">
+                <img src="https://placehold.co/150x150/fcd34d/ffffff?text=Daisy" alt="Daisy the Dog" class="rounded-full w-24 h-24 object-cover mb-3 border-2 border-green-400">
+                <p class="text-lg font-semibold text-gray-800 mb-1">Dog's Name: Daisy</p>
+                <p class="text-base text-gray-700 mb-1">Owner's Name: John Smith</p>
+                <p class="text-base text-gray-700">Owner's Phone: (555) 333-4444</p>
+            </div>
+            <!-- Example Dog Listing 3 -->
+            <div class="bg-gray-50 p-4 rounded-xl shadow-lg flex flex-col items-center text-center">
+                <img src="https://placehold.co/150x150/6ee7b7/ffffff?text=Max" alt="Max the Dog" class="rounded-full w-24 h-24 object-cover mb-3 border-2 border-green-400">
+                <p class="text-lg font-semibold text-gray-800 mb-1">Dog's Name: Max</p>
+                <p class="text-base text-gray-700 mb-1">Owner's Name: Emily White</p>
+                <p class="text-base text-gray-700">Owner's Phone: (555) 555-6666</p>
+            </div>
+            <!-- Example Dog Listing 4 -->
+            <div class="bg-gray-50 p-4 rounded-xl shadow-lg flex flex-col items-center text-center">
+                <img src="https://placehold.co/150x150/93c5fd/ffffff?text=Luna" alt="Luna the Dog" class="rounded-full w-24 h-24 object-cover mb-3 border-2 border-green-400">
+                <p class="text-lg font-semibold text-gray-800 mb-1">Dog's Name: Luna</p>
+                <p class="text-base text-gray-700 mb-1">Owner's Name: David Green</p>
+                <p class="text-base text-gray-700">Owner's Phone: (555) 777-8888</p>
+            </div>
+            <!-- Add more dog listings here -->
+        </div>
+    </section>
+
+    <!-- Footer Section (consistent across pages) -->
+    <footer class="bg-gray-800 text-white py-6 mt-8 rounded-t-lg shadow-inner">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 Cedar Grove HOA. All rights reserved. | Built with ❤️ for the community.</p>
+            <div class="mt-2">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

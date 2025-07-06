@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedar Grove HOA - Concrete, WA</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-green-700 to-green-900 text-white shadow-lg py-4 md:py-6">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2 md:mb-0">Cedar Grove HOA</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-4 md:space-x-8 text-lg">
+                    <li><a href="local_links.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Local Links</a></li>
+                    <li><a href="businesses.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Businesses</a></li>
+                    <li><a href="dogs.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Dog Pictures</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-96 flex items-center justify-center text-white"
+        style="background-image: url('https://placehold.co/1200x600/38a169/ffffff?text=Welcome+to+Cedar+Grove');">
+        <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div class="relative z-10 text-center p-4">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Welcome to Cedar Grove!</h2>
+            <p class="text-xl md:text-2xl font-light drop-shadow-md">A beautiful community in Concrete, WA</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container mx-auto px-4 py-12 md:py-16 bg-white rounded-lg shadow-md mt-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">About Our Community</h2>
+        <div class="flex flex-col md:flex-row items-center md:space-x-8">
+            <div class="md:w-1/2 mb-6 md:mb-0">
+                <img src="https://placehold.co/600x400/2f855a/ffffff?text=Cedar+Grove+Scenery" alt="Cedar Grove Scenery" class="rounded-xl shadow-lg w-full h-auto object-cover">
+            </div>
+            <div class="md:w-1/2">
+                <p class="text-lg leading-relaxed mb-4">
+                    The Cedar Grove Homeowners Association is dedicated to fostering a vibrant, safe, and welcoming community for all residents in Concrete, WA. We work to maintain common areas, enforce community guidelines, and organize events that bring our neighbors together.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Our goal is to enhance the quality of life in Cedar Grove, ensuring it remains a beautiful and desirable place to live for years to come. We encourage all residents to get involved and contribute to our shared success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News/Announcements Section -->
+    <section id="news" class="container mx-auto px-4 py-12 md:py-16 bg-gray-100 rounded-lg shadow-md mt-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Latest News & Announcements</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- News Item 1: 4th of July Cleanup -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">4th of July Cleanup Reminder</h3>
+                <p class="text-gray-600 text-sm mb-4">July 6, 2025</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Please remember to clean up any fireworks debris from your properties and common areas. Let's keep Cedar Grove beautiful!
+                </p>
+                <!-- Removed: <a href="#" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">View Guidelines &rarr;</a> -->
+            </div>
+            <!-- News Item 2: Lights Issue Investigation -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">Lights Issue Under Review</h3>
+                <p class="text-gray-600 text-sm mb-4">July 6, 2025</p>
+                <p class="text-700 leading-relaxed">
+                    The HOA board is actively looking into the community lights issue. This will be a key discussion point at the next board meeting.
+                </p>
+                <!-- Removed: <a href="#events" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">See Events &rarr;</a> -->
+            </div>
+            <!-- News Item 3: Dues Reminder -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">Annual Dues Reminder</h3>
+                <p class="text-gray-600 text-sm mb-4">July 6, 2025</p>
+                <p class="text-gray-700 leading-relaxed">
+                    If you haven't yet submitted your annual HOA dues, please do so as soon as possible to avoid late fees. Your timely payments help maintain our community!
+                </p>
+                <a href="#documents" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">View Documents &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="container mx-auto px-4 py-12 md:py-16 bg-white rounded-lg shadow-md mt-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Important Documents</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                <svg class="w-8 h-8 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0113 3.414L16.586 7A2 2 0 0118 8.414V16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm2 10a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <div>
+                    <h3 class="text-xl font-semibold text-green-700">HOA Covenants & Bylaws</h3>
+                    <p class="text-gray-600">Last Updated: May 2025</p>
+                    <a href="#" class="text-green-600 hover:text-green-800 font-medium">Download PDF</a>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                <svg class="w-8 h-8 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0113 3.414L16.586 7A2 2 0 0118 8.414V16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm2 10a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <div>
+                    <h3 class="text-xl font-semibold text-green-700">Annual Budget Report 2024-2025</h3>
+                    <p class="text-gray-600">Published: April 2025</p>
+                    <a href="#" class="text-green-600 hover:text-green-800 font-medium">Download PDF</a>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                <svg class="w-8 h-8 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0113 3.414L16.586 7A2 2 0 0118 8.414V16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm2 10a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <div>
+                    <h3 class="text-xl font-semibold text-green-700">Map of Neighborhood Lots</h3>
+                    <p class="text-gray-600">Updated: June 2025</p>
+                    <a href="#" class="text-green-600 hover:text-green-800 font-medium">View Map</a>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md flex items-center space-x-4">
+                <svg class="w-8 h-8 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0113 3.414L16.586 7A2 2 0 0118 8.414V16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm2 10a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm0-3a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <div>
+                    <h3 class="text-xl font-semibold text-green-700">Meeting Minutes (2024-2025)</h3>
+                    <p class="text-gray-600">Updated Monthly</p>
+                    <a href="#" class="text-green-600 hover:text-green-800 font-medium">View Archive</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="container mx-auto px-4 py-12 md:py-16 bg-gray-100 rounded-lg shadow-md mt-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Upcoming Events</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Event Item 1: Park Cleanup -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">Park Cleanup Day</h3>
+                <p class="text-gray-600 text-sm mb-4">July 19, 2025 | 1:00 PM - 3:00 PM</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Join us to help keep our community park pristine! All volunteers are welcome.
+                </p>
+                <!-- Removed: <a href="#" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">Volunteer & Details &rarr;</a> -->
+            </div>
+            <!-- Event Item 2: September Barbecue -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">September Community Barbecue</h3>
+                <p class="text-gray-600 text-sm mb-4">Date: TBD</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Get ready for our annual fall barbecue! More details on date, time, and location will be announced soon.
+                </p>
+                <!-- Removed: <a href="#" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">Stay Tuned &rarr;</a> -->
+            </div>
+            <!-- Event Item 3: July Board Meeting -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
+                <h3 class="text-2xl font-semibold text-green-700 mb-3">July Board Meeting</h3>
+                <p class="text-gray-600 text-sm mb-4">Date: TBD</p>
+                <p class="text-gray-700 leading-relaxed">
+                    This is a board-only meeting. If you have issues to raise, please send your complaints/emails to the HOA board.
+                </p>
+                <!-- Removed: <a href="#" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">Join Meeting &rarr;</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How to File Complaints Section -->
+    <section id="complaints" class="container mx-auto px-4 py-12 md:py-16 bg-gray-100 rounded-lg shadow-md mt-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">How to File a Complaint</h2>
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+            <p class="text-lg leading-relaxed mb-6">
+                Complaints concerning violations of conditions, covenants, and restrictions shall be made in writing and sent by USPS to:
+            </p>
+            <address class="text-center text-xl font-semibold text-gray-800 mb-6 not-italic">
+                CEDARGROVE MAINTENANCE COMPANY<br>
+                P.O. Box 721<br>
+                Concrete, WA 98237
+            </address>
+            <p class="text-lg leading-relaxed text-center">
+                The Board members will handle the complaints as appropriate.
+            </p>
+            <div class="text-center mt-8">
+                <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Download Complaint Form (PDF)
+                </a>
+                <p class="text-sm text-gray-500 mt-2">
+                    (Note: This is a placeholder link. You would replace it with a link to your actual PDF form.)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container mx-auto px-4 py-12 md:py-16 bg-white rounded-lg shadow-md mt-8 mb-8">
+        <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Contact Us</h2>
+        <div class="flex flex-col md:flex-row items-start md:space-x-8">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <p class="text-lg leading-relaxed mb-4">
+                    Have questions, suggestions, or need to report an issue? Please use the contact form below or reach out to us directly.
+                </p>
+                <ul class="space-y-3 text-lg">
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                        <a href="mailto:cedargrove2020@outlook.com" class="text-green-700 hover:underline">cedargrove2020@outlook.com</a>
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                        <p>PO Box 721, Concrete WA 98237</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <form class="bg-gray-50 p-6 rounded-xl shadow-md">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="John Doe">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="john.doe@example.com">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Your message here..."></textarea>
+                    </div>
+                    <div class="flex items-center justify-end">
+                        <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 mt-8 rounded-t-lg shadow-inner">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 Cedar Grove HOA. All rights reserved. | Built with ❤️ for the community.</p>
+            <div class="mt-2">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
