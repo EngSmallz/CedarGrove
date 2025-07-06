@@ -17,17 +17,19 @@
             <h1 class="text-3xl md:text-4xl font-bold mb-2 md:mb-0">Cedar Grove HOA</h1>
             <nav>
                 <ul class="flex flex-wrap justify-center space-x-4 md:space-x-8 text-lg">
+                    <li><a href="homepage.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Homepage</a></li>
                     <li><a href="local_links.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Local Links</a></li>
                     <li><a href="businesses.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Businesses</a></li>
-                    <li><a href="dogs.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Dog Pictures</a></li>
+                    <li><a href="dogs.html" class="hover:text-green-200 transition duration-300 ease-in-out rounded-md p-2">Pet Pictures</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
     <!-- Hero Section -->
     <section class="relative bg-cover bg-center h-96 flex items-center justify-center text-white"
-        style="background-image: url('https://placehold.co/1200x600/38a169/ffffff?text=Welcome+to+Cedar+Grove');">
+        style="background-image: url('/static/images/scenery.jpg'); background-size: cover; background-position: center;">
         <div class="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
         <div class="relative z-10 text-center p-4">
             <h2 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Welcome to Cedar Grove!</h2>
@@ -40,7 +42,7 @@
         <h2 class="text-4xl font-bold text-center text-green-800 mb-8">About Our Community</h2>
         <div class="flex flex-col md:flex-row items-center md:space-x-8">
             <div class="md:w-1/2 mb-6 md:mb-0">
-                <img src="https://placehold.co/600x400/2f855a/ffffff?text=Cedar+Grove+Scenery" alt="Cedar Grove Scenery" class="rounded-xl shadow-lg w-full h-auto object-cover">
+                <img src="/static/images/concrete.jpg" alt="Cedar Grove Scenery" class="rounded-xl shadow-lg w-full h-auto object-cover">
             </div>
             <div class="md:w-1/2">
                 <p class="text-lg leading-relaxed mb-4">
@@ -82,7 +84,6 @@
                 <p class="text-gray-700 leading-relaxed">
                     If you haven't yet submitted your annual HOA dues, please do so as soon as possible to avoid late fees. Your timely payments help maintain our community!
                 </p>
-                <a href="#documents" class="inline-block mt-4 text-green-600 hover:text-green-800 font-medium transition duration-300 ease-in-out">View Documents &rarr;</a>
             </div>
         </div>
     </section>
@@ -189,43 +190,20 @@
     <!-- Contact Us Section -->
     <section id="contact" class="container mx-auto px-4 py-12 md:py-16 bg-white rounded-lg shadow-md mt-8 mb-8">
         <h2 class="text-4xl font-bold text-center text-green-800 mb-8">Contact Us</h2>
-        <div class="flex flex-col md:flex-row items-start md:space-x-8">
-            <div class="md:w-1/2 mb-8 md:mb-0">
-                <p class="text-lg leading-relaxed mb-4">
-                    Have questions, suggestions, or need to report an issue? Please use the contact form below or reach out to us directly.
-                </p>
-                <ul class="space-y-3 text-lg">
-                    <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-                        <a href="mailto:cedargrove2020@outlook.com" class="text-green-700 hover:underline">cedargrove2020@outlook.com</a>
-                    </li>
-                    <li class="flex items-center">
-                        <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-                        <p>PO Box 721, Concrete WA 98237</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="md:w-1/2 w-full">
-                <form class="bg-gray-50 p-6 rounded-xl shadow-md">
-                    <div class="mb-4">
-                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
-                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="John Doe">
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Your Email</label>
-                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="john.doe@example.com">
-                    </div>
-                    <div class="mb-6">
-                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
-                        <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="Your message here..."></textarea>
-                    </div>
-                    <div class="flex items-center justify-end">
-                        <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105">
-                            Send Message
-                        </button>
-                    </div>
-                </form>
-            </div>
+        <div class="flex flex-col items-center">
+            <p class="text-lg leading-relaxed mb-4 text-center">
+                Have questions, suggestions, or need to report an issue? Reach out to us directly.
+            </p>
+            <ul class="space-y-3 text-lg text-center">
+                <li class="flex items-center justify-center">
+                    <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    <a href="mailto:cedargrove2020@outlook.com" class="text-green-700 hover:underline">cedargrove2020@outlook.com</a>
+                </li>
+                <li class="flex items-center justify-center">
+                    <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                    <p>PO Box 721, Concrete WA 98237</p>
+                </li>
+            </ul>
         </div>
     </section>
 
